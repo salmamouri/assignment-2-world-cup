@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.banner{
+    
+    color: white;
+    background-color: rgb(6, 168, 168);
+    margin: 0 10%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-img{
+    margin-left: 20px;
+    margin-top:20px ;
+    
+}
+#heading{
+    font-size: 50px;
+}
+.watch-btn{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color:whitesmoke;
+  background-color: rgb(2, 2, 75);
+}
+.watch-btn:hover{
+
+    transform: scale(1.25);
+    transition-duration: 3s;
+}
+.fa-solid{
+    margin-left: 10px;
+    margin-top: 3px;
+}
