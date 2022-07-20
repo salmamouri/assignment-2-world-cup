@@ -3,8 +3,11 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    width: 100vw;
 }
-
+a{
+    text-decoration: none;
+}
 
 .banner{
     color: white;
@@ -27,6 +30,7 @@ body{
     font-size: 50px;
 }
 .watch-btn{
+  width: 150px;
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius: 8px;
@@ -49,49 +53,58 @@ body{
 /* --------Blog Part Style ------ */
 .blog-section{
     display: flex;
+     max-width: 100vw;
+     margin-left: 100px;
+     /* padding: 0 10%; */
+    
 }
 .blogs{
     display: grid;
     grid-column-gap:20px;
     grid-row-gap:25px ;
     grid-template-columns: repeat(3,1fr);
-    width: 55%;
-   
+    width: 60%;
+
+}
+.blog-img{
+    width: 100%;
 }
 .blog{
    padding: 10px;
    border: 1px solid lightgrey;
    border-radius: 10px;
+   height: 350px;
+   width: 250px;
    
 }
-.btn-box button{
-    font-size: 20px;
-    font-weight: 600;
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
-   }
-.btn-box a{
-    text-decoration: none;
-    color:black;
-}
+
 .btn-box{
-    background-color: rgb(2, 2, 75) ;
+    background-color: rgb(6, 168, 168) ;
+   padding: 30px;
     border-radius: 10px;
     margin-right: 20px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    
 }
-#blog-btn{
-    background-color: darkturquoise;
+.btn-box button{
+    width: 200px;
+    padding: 12px;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.selected-btn{
+    background-color: navy;
     color: white;
-   
 }
+
 .icon{
     display: flex;
     margin-bottom: 30px;
@@ -107,7 +120,7 @@ body{
 
 /* ----------Footer Style-------------- */
 footer{
-    background-color:rgb(2, 2, 75) ;
+    background-color:rgb(6, 168, 168) ;
     color: white;
     margin-top: 150px;
     padding: 30px;
@@ -139,4 +152,35 @@ hr{
 }
 .fa-brands{
     color: white;
+}
+
+.flag{
+    display:flex;
+   
+}
+.match{
+    padding: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.match img{
+    margin: 10px;
+}
+.match-time{
+    text-align: center;
+}
+.upcoming-matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:15px ;
+    grid-column-gap:15px ;
+}
+
+
+
+
+/* ------*** Media-Query ****------ */
+
+@media only screen and (min-width:768px)and (max-width:992px){
+    
 }
