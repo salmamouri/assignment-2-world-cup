@@ -69,12 +69,7 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* .upcoming-matches {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 15px;
-  grid-column-gap: 15px;
-} */
+
 /* --------Blog Part Style ------ */
 .blog-section {
   display: flex;
