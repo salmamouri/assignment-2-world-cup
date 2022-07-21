@@ -278,7 +278,9 @@ hr {
   .blog {
     width: 100%;
   }
-
+.blog-img{
+  display: block;
+}
   
   footer {
     width: 100%;
@@ -289,6 +291,7 @@ hr {
   }
   .social-icon {
     display: flex;
+    margin-top: 10px;
     flex-direction: row;
   }
 }
